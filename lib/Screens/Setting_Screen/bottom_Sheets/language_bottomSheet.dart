@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:islami_app/config/Theming/my_Theme_Data.dart';
-import 'package:islami_app/myprovider/my_provider.dart';
+
 import 'package:provider/provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:todo_app/Shared/Styles/app_Colors.dart';
+
+import '../../../Providers/my_provider.dart';
+import '../../../Shared/Styles/my_Theme_Data.dart';
 
 class LanguageBottomSheet extends StatelessWidget {
   bool isEnglish = true;
@@ -20,17 +23,21 @@ class LanguageBottomSheet extends StatelessWidget {
             },
             child: Row(
               children: [
-                Text(AppLocalizations.of(context)!.english,
+                Text(
+                    AppLocalizations.of(context)!.english,
                     style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                      fontSize: 20,
                         color: provider.languageCode == "en"
-                            ? MyThemeData.PrimaryColor
-                            : Colors.black)),
+                            ? primaryColor
+                            : Colors.black),
+
+                ),
                 const Spacer(),
                 provider.languageCode == "en"
                     ? Icon(
                         Icons.done,
                         color: provider.languageCode == "en"
-                            ? MyThemeData.PrimaryColor
+                            ? primaryColor
                             : Colors.black54,
                         size: 35,
                       )
@@ -46,8 +53,9 @@ class LanguageBottomSheet extends StatelessWidget {
               children: [
                 Text(AppLocalizations.of(context)!.arabic,
                     style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                      fontSize: 20,
                         color: provider.languageCode == "ar"
-                            ? MyThemeData.PrimaryColor
+                            ? primaryColor
                             : Colors.black)),
                 const Spacer(),
                 provider.languageCode == "en"
@@ -55,7 +63,7 @@ class LanguageBottomSheet extends StatelessWidget {
                     : Icon(
                         Icons.done,
                         color: provider.languageCode == "ar"
-                            ? MyThemeData.PrimaryColor
+                            ? primaryColor
                             : Colors.black,
                         size: 35,
                       )

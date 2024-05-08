@@ -1,0 +1,23 @@
+{
+  "appBarTitle": "Todo List",
+  "settings": "Settings",
+  "language": "Language",
+  "arabic": "Arabic",
+  "english":"English",
+  "light": "Light mode",
+  "dark": "Dark mode",
+  "theme": "Theming",
+  "addNewTask": "Add New Task",
+  "editTaskScreen": "Edit Task Screen",
+  "editYourTask":"Edit Your Task",
+  "editYourDescription":"Edit Your Description",
+
+  "taskTitle": "Task Title",
+  "taskDescription": "Task Description",
+  "saveChanges": "Save Changes",
+  "selectedDate": "Selected Date",
+  "saveTask": "Save Task",
+  "edit": "Edit",
+  "delete": "Delete"
+
+}

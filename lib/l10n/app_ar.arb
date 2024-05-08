@@ -1,0 +1,27 @@
+{
+  "appBarTitle": " قائمه المهام",
+  "settings": "الإعدادات",
+  "language": "اللغه",
+  "arabic": "عربي",
+  "english":"انجليزي",
+  "light": "وضع الضوء",
+  "dark": "الوضع المظلم",
+  "theme": "السمات",
+  "addNewTask": "إضافه مهمه جديدة",
+
+  "taskTitle": "عنوان المهمه",
+  "taskDescription": "وصف المهمه",
+  "saveChanges": "حفظ",
+  "editYourTask":"تعديل المهمه",
+
+  "edit this Title": "تعديل المهمه",
+  "editYourDescription":"تعديل الوصف",
+
+  "errorValidateTitle": "Please Edit The Task",
+  "errorValidateDes": "Please Edit The Task",
+  "selectedDate": "تحديد الوقت",
+  "saveTask": "حفظ المهمه",
+  "edit": "تعديل",
+  "delete": "حذف",
+  "editTaskScreen": "صفحه تعديل المهمه"
+}
